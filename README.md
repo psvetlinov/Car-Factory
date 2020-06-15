@@ -19,7 +19,7 @@ What things you need to install the software and how to install them
 After installing Docker, you need to run the folowing commands in the
 console/terminal (powerShell for Windows):
 ```
-docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=VMware@123' -p 1433:1433 -d microsoft/mssql-server-linux
+.............................
 ```
 This will produce a container in which the data base is stored.
 
@@ -33,9 +33,7 @@ First you need to create a new sql script file. Then press 'F1' and write MS SQL
 after that click 'Create connection profile' and enter the folowing:
 
 ```
-servername: localhost
-username: sa
-password: VMware@123
+......................................
 ```
 After the connection establishment, you are ready to use the application.
 The location of the Main app class is at: src/com/MainApp.java
